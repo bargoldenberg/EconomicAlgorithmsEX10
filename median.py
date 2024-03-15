@@ -34,7 +34,6 @@ def compute_budget(total_budget: float, citizen_votes: list[list[float]])-> list
             t = (t_max + t) / 2
     return budget
 
-
 # TESTS
 total_budget = 100
 citizen_votes = [[100, 0, 0], [0, 0, 100]]
